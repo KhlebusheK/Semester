@@ -1,16 +1,16 @@
 #pragma once
 
-#ifdef LABA4_EXPORTS
-#define LABA4_API __declspec(dllexport) 
+#ifdef MATRIXLIBRARY_EXPORTS
+#define MATRIXLIBRARY_API __declspec(dllexport) 
 #else
-#define LABA4_API __declspec(dllimport) 
+#define MATRIXLIBRARY_API __declspec(dllimport) 
 #endif
 
-namespace Matrix4
+namespace Matrix
 {
-	LABA4_API double ** AllocateMemory(int n);
-	LABA4_API void FreeMemory(double ** matrix, int n);
-	LABA4_API void InitRandomMatrix(double ** array, int n);
-	LABA4_API  void Matrix4::SumOfMatrix(double** A, double** B, int n);
-	LABA4_API void Matrix4::DisplayMatrix(double ** array, int  n);
+	MATRIXLIBRARY_API double **AllocateMemory(int n);
+	MATRIXLIBRARY_API void FreeMemory(double ** matrix, int n);
+	MATRIXLIBRARY_API void DisplayMatrix(double ** matrix, int n);
+	MATRIXLIBRARY_API void InitRandomMatrix(double ** array, int n);
+	MATRIXLIBRARY_API void CreateNewMatrix(double ** array, int n);
 }

@@ -1,0 +1,9 @@
+   -9   17  -16  -50   19  -26   28    8   12   14  -45   -5   31  -23   11   41   45   -8  -23  -14
+It's new massive :
+   -9  -45  -23
+It's old massive without elements : 
+   17  -16  -50   19  -26   28    8   12   14   -5   31   11   41   45   -8  -23  -14
+Elements of massive is difference between 1 and 0 in the binary form : 
+   17  -16  -50   19  -26   28    8   12   14   -5   31   11   41   45   -8  -23  -14
+It's sorting massive : 
+   31  -50   14   -5   11   45   19  -26   28   12   41  -23  -14   17    8   -8  -16
