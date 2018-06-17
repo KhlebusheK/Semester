@@ -1,9 +1,9 @@
 #pragma once
 
 #ifdef MATRIXLIBRARY_EXPORTS
-#define MATRIXLIBRARY_API __declspec(dllexport) 
-#else
 #define MATRIXLIBRARY_API __declspec(dllimport) 
+#else
+#define MATRIXLIBRARY_API __declspec(dllexport) 
 #endif
 
 namespace MatrixLibrary
